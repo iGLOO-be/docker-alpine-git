@@ -1,7 +1,7 @@
 
 # alpine-git
 
-Simple container for `git` based on `alpine:3.4`. Automated build: `igloo/alpine-git`.
+Simple container for `git` based on `alpine:3.4`. Automated build: [`igloo/alpine-git`](https://hub.docker.com/r/loicmahieu/alpine-git/).
 
 ```sh
 docker run --rm -v $(pwd):/git igloo/alpine-git status
